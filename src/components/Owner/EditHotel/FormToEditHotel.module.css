@@ -1,0 +1,68 @@
+.imageGrid div {
+    width: 25%;
+    height: 150px;
+    margin: 0px 5px;
+    padding: 0 5px;
+    position: relative;
+    /* border: solid; */
+
+}
+.imageGrid div img{
+    border-radius: 10px;
+}
+
+.imageGrid {
+    /* border: solid; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.forClose{
+position: absolute;
+border-radius: 5px;
+color: white;
+    top: -24px;
+    right: 13px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(2, 23, 23, 0.886);
+}
+
+
+.forImgGrid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.forDiv{
+   position: relative;
+    width: 25%;
+        height: 150px;
+        /* background-color: antiquewhite; */
+        overflow: hidden;
+        object-fit: cover;
+}
+
+.forDiv img{
+padding: 5px;
+object-fit: cover;
+        height: 150px;
+    width: 100%;
+    border-radius: 20px;
+}
+.forClosing{
+
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(4, 23, 23, 0.511);
+}
+
+

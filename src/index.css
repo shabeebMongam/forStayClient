@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Work+Sans:wght@300&display=swap');
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.loginBG{
+    background-image: url("../public/assets/login.jpg");
+    height: 100%;
+    background-size: cover;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.registerBG{
+    background-image: url("../public/assets/register.jpg");
+    height: 100%;
+    background-size: cover;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.registerOwnerBG{
+    background-image: url("../public/assets/ownerRegister.jpg");
+    height: 100%;
+    background-size: cover;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.loginOwnerBG{
+    background-image: url("../public/assets/ownerLogin.jpg");
+    height: 100%;
+    background-size: cover;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.loginAdminBG{
+    background-image: url("../public/assets/adminLoginBG.jpg");
+    height: 100%;
+    background-size: cover;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.forDashboard {
+    max-width: 1900px;
+    min-height: 90vh;
+    /* background-color: aqua; */
+    border: solid black 1px;
+    margin: 0 auto;
+}
+
+.forSidebar {
+    /* background-color: blanchedalmond; */
+    border: solid black 1px;
+}
+
+.forMain {
+    /* background-color: blueviolet; */
+    border: solid black 1px;
+}

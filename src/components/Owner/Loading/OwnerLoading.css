@@ -1,0 +1,9 @@
+.forUserLoading{
+    min-width: 100vh;
+    min-height: 100vh;
+    background-color: rgba(0, 134, 251, 0);
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   

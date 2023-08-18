@@ -1,0 +1,10 @@
+.imageGrid div {
+    width: 25%;
+    height: 240px;
+    
+}
+
+.imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+}
